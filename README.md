@@ -8,12 +8,12 @@ Example Rails app to demo 'nested polymorphic comments solution with Ancestry Ge
 Clone this repo to your own computer
 
 Run the following to install required gems (--path is optional)
-  bundle install --path vendor/bundle
+    bundle install --path vendor/bundle
 
 Run the following to setup the database:
-  bundle exec rake db:setup
+    bundle exec rake db:setup
 
 Run the following to get some sample data:
-  bundle exec rake db:populate
+    bundle exec rake db:populate
 
 Start the rails app and navigate to http://localhost:3000
